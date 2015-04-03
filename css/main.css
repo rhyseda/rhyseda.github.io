@@ -1,6 +1,6 @@
-/**********************************
-GENERAL
-***********************************/
+/****************************************
+General
+*****************************************/
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none
 }
 
 img {
@@ -21,25 +21,27 @@ img {
 }
 
 h3 {
-  margin: 0 0 1em 0;
+	margin: 0 0 1em 0;
 }
 
 
 
-/**********************************
-HEADING
-***********************************/
+/****************************************
+Heading
+*****************************************/
 
 header {
-  float: left;
+  float:left;
   margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
+  padding 5px 0 0 0;
   width: 100%;
 }
 
+
+
 #logo {
   text-align: center;
-  margin: 0;
+  margin: 0;  
 }
 
 h1 {
@@ -58,24 +60,24 @@ h2 {
 
 
 
-/**********************************
+/****************************************
 NAVIGATION
-***********************************/
+*****************************************/
 
 nav {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 ;
   margin: 20px 0 0;
 }
 
 nav ul {
-  list-style: none;
-  margin: 0 10px;
+  list-style:none;
+  margin: 0 10px ;
   padding: 0;
-}
+  }
 
 nav li {
-  display: inline-block;
+  display:inline-block; 
 }
 
 nav a {
@@ -83,11 +85,9 @@ nav a {
   padding: 15px 10px;
 }
 
-
-
-/**********************************
+/****************************************
 FOOTER
-***********************************/
+*****************************************/
 
 footer {
   font-size: 0.75em;
@@ -104,10 +104,9 @@ footer {
 }
 
 
-
-/**********************************
+/****************************************
 PAGE: PORTFOLIO
-***********************************/
+*****************************************/
 
 #gallery {
   margin: 0;
@@ -120,8 +119,8 @@ PAGE: PORTFOLIO
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
-  color: #bdc3c7;
-}
+  color: #bdc3c7
+  }
 
 #gallery li a p {
   margin: 0;
@@ -132,11 +131,12 @@ PAGE: PORTFOLIO
 
 
 
-/**********************************
+/****************************************
 PAGE: ABOUT
-***********************************/
+*****************************************/
 
 .profile-photo {
+  clear: both;
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
@@ -179,57 +179,51 @@ PAGE: CONTACT
 
 
 
-/**********************************
+
+/****************************************
 COLORS
-***********************************/
+*****************************************/
 
 /* site body */
 body {
   background-color: #fff;
-  color: #999;
+  color: #999
 }
 
-/* green header */
+/* blue header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+/*  background: #6ab47b; */
+  background: #0099CC;   
+  border-color: #0099CC;
+/*  border-color: #599a68;*/
 }
 
-/* nav background on mobile */
+/* nav background on mobile devices */
 nav {
-  background: #599a68;
+/*  background:  #599a68; */
+  background:  #0000CC;
 }
 
-/* logo text */
+/* logo text, white */
 h1, h2 {
   color: #fff;
 }
 
 /* links */
-a {
-  color: #6ab47b;
+a { 
+  color :#0099CC;
+/*    color: #6ab47b;*/
 }
 
+
+
 /* nav link */
-nav a, nav a:visited {
+nav a, nav a :visited {
   color: #fff;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+/*  color: #32673f;*/
+  color: #0099CC;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
