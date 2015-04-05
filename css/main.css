@@ -193,15 +193,15 @@ body {
 /* blue header */
 header {
 /*  background: #6ab47b; */
-  background: #0099CC;   
-  border-color: #0099CC;
+  background: #7fb2f0;   
+  border-color: #7fb2f0;
 /*  border-color: #599a68;*/
 }
 
 /* nav background on mobile devices */
 nav {
 /*  background:  #599a68; */
-  background:  #0000CC;
+  background:  #4e7ac7;
 }
 
 /* logo text, white */
@@ -211,8 +211,8 @@ h1, h2 {
 
 /* links */
 a { 
-  color :#0099CC;
-/*    color: #6ab47b;*/
+  color :#7fb2f0;
+/*    color: #0099CC;*/
 }
 
 
@@ -225,5 +225,7 @@ nav a, nav a :visited {
 /* selected nav link */
 nav a.selected, nav a:hover {
 /*  color: #32673f;*/
-  color: #0099CC;
+  color: #35478c;
 }
+
+
